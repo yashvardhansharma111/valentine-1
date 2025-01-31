@@ -1,19 +1,13 @@
-
 import { useState } from "react";
-
 
 export default function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
   
-
   const handleNoClick = () => {
     setNoCount(noCount + 1);
   };
-
- 
-
 
   const getNoButtonText = () => {
     const phrases = [
@@ -48,7 +42,7 @@ export default function App() {
     ) : (
         <>
           <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
-          <h1 className="text-4xl my-4">Will you be my Valentine?</h1>
+          <h1 className="text-4xl my-4">Will you be my Valentine Shivi ji? PLzzzzzz 🥺</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
